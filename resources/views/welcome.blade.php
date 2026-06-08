@@ -298,7 +298,7 @@
 
         <div class="space-y-2 text-center md:text-left">
             <span class="block text-white font-extrabold text-base">Renard Cynthia</span>
-            <p>N° SIRET : 123 456 789 00012 </p>
+            <p>N° SIRET :  </p>
             <p>Garantie contractuelle de 5 ans sur les démoussages de toiture.</p>
         </div>
 

@@ -41,7 +41,7 @@
         <section class="space-y-3 border-t border-gray-100 pt-6">
             <h2 class="text-xl font-bold text-slate-900"><i class="fa-solid fa-id-card text-orange-500 mr-2"></i>Immatriculation</h2>
             <p class="text-gray-600 leading-relaxed">
-                <strong>Numéro SIRET :</strong> 123 456 789 00012 <br>
+                <strong>Numéro SIRET :</strong>  <br>
                 <strong>Garantie contractuelle :</strong> Garantie de 5 ans sur les prestations de démoussage et traitements de toiture.
             </p>
         </section>
