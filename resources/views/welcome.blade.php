@@ -10,7 +10,7 @@
     <meta name="keywords" content="nettoyage maison, nettoyage intérieur, nettoyage extérieur, démoussage toiture, traitement façade, entretien terrasse, nettoyage vitres, Renard Cynthia">
     <meta name="author" content="Renard Cynthia">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="{{ url()->current() }}">
+    <link class="canonical" href="{{ url()->current() }}">
 
     <!-- Open Graph / Facebook (Partage Réseaux Sociaux) -->
     <meta property="og:type" content="website">
@@ -66,6 +66,7 @@
 
         <nav class="hidden md:flex items-center gap-6 font-semibold text-sm">
             <a href="#prestations" title="Voir nos prestations de nettoyage" class="hover:text-orange-500 transition-colors">Nos Prestations</a>
+            <a href="#realisations" title="Découvrir nos photos avant après" class="hover:text-orange-500 transition-colors">Nos Réalisations</a>
             <a href="#engagements" title="Découvrir nos engagements qualité" class="hover:text-orange-500 transition-colors">Nos Engagements</a>
             <a href="#contact" title="Prendre contact ou demander un devis" class="hover:text-orange-500 transition-colors">Contact & Devis</a>
         </nav>
@@ -105,7 +106,6 @@
                 <img src="{{ asset('images/Renard1.png') }}"
                      alt="Prestation de nettoyage professionnel de maison par l'entreprise Renard Cynthia"
                      class="w-full h-auto rounded-2xl object-cover transition-transform duration-500 group-hover:scale-102">
-
             </div>
 
             <div class="absolute -top-4 -right-3 bg-gradient-to-br from-orange-500 to-red-600 text-white w-20 h-20 rounded-full flex flex-col items-center justify-center text-center shadow-xl shadow-orange-500/30 font-bold text-xs p-1 transform rotate-12 transition-transform hover:scale-110 z-20">
@@ -162,12 +162,69 @@
     </div>
 </section>
 
+<!-- SECTION RÉALISATIONS - IMAGES ENTIÈRES ET ALIGNÉES -->
+<section id="realisations" class="py-16 bg-white border-t border-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <h2 class="text-3xl font-black text-slate-900">Nos Réalisations Avant / Après</h2>
+            <p class="text-gray-600 mt-2">Découvrez les résultats bluffants de nos interventions de nettoyage et traitements protecteurs.</p>
+            <div class="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Projet 1 -->
+            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                    <img src="{{ asset('images/realisations/toiture-avant-apres.jpg') }}" alt="Traitement hydrofuge de toiture avant après par Renard Cynthia" class="max-w-full max-h-full object-contain">
+                </div>
+            </div>
+
+            <!-- Projet 2 -->
+            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                    <img src="{{ asset('images/realisations/terrasse-hydrofuge-avant-apres.jpg') }}" alt="Traitement hydrofuge de terrasse en dalles avant après" class="max-w-full max-h-full object-contain">
+                </div>
+            </div>
+
+            <!-- Projet 3 -->
+            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                    <img src="{{ asset('images/realisations/allees-murs-avant-apres.jpg') }}" alt="Nettoyage d'une allée pavée et murs extérieurs" class="max-w-full max-h-full object-contain">
+                </div>
+            </div>
+
+            <!-- Projet 4 -->
+            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                    <img src="{{ asset('images/realisations/facade-hydrofuge-avant-apres.jpg') }}" alt="Démonstration de l'effet perlant d'un hydrofuge de façade" class="w-full h-full object-contain">
+                </div>
+            </div>
+
+            <!-- Projet 5 -->
+            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                    <img src="{{ asset('images/realisations/facade-nettoyage-avant-apres.jpg') }}" alt="Nettoyage et démoussage complet d'un mur de façade" class="w-full h-full object-contain">
+                </div>
+            </div>
+
+            <!-- Projet 6 -->
+            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                    <img src="{{ asset('images/realisations/terrasse-bois-avant-apres.jpg') }}" alt="Nettoyage et dégrisement d'une terrasse en bois avant après" class="max-w-full max-h-full object-contain">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="engagements" class="py-16 bg-white border-t border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-4">
 
         <div class="text-center max-w-2xl mx-auto mb-12">
             <h2 class="text-3xl font-black text-slate-900">Pourquoi nous faire confiance ?</h2>
-            <p class="text-gray-600 mt-2">Nous garantissons un service de qualité supérieure conforme à vos exigences.</p>
+            <p class="text-gray-600 mt-2">Nous garantissons un service de quality supérieure conforme à vos exigences.</p>
             <div class="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
         </div>
 
@@ -203,7 +260,7 @@
 </section>
 
 <section id="contact" class="py-16 bg-gray-50">
-    <div class="max-w-3xl mx-auto px-4">
+    <div class="max-w-5xl mx-auto px-4">
 
         <div class="space-y-6 text-center">
             <div>
@@ -211,31 +268,33 @@
                 <p class="text-gray-600 mt-2">Nous répondons à toutes vos questions et demandes de rendez-vous dans les plus brefs délais.</p>
             </div>
 
-            <div class="grid sm:grid-cols-2 gap-4">
-                <a href="tel:0699233805" title="Contacter l'entreprise Renard par mobile" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
-                    <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-mobile-screen"></i></span>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <a href="tel:0699233805" title="Contacter l'entreprise Renard par mobile" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg shrink-0"><i class="fa-solid fa-mobile-screen"></i></span>
                     <div class="text-left">
                         <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">Mobile direct</span>
-                        <span class="text-lg font-bold text-slate-950">06 99 23 38 05</span>
+                        <span class="text-base xl:text-lg font-bold text-slate-950 whitespace-nowrap">06 99 23 38 05</span>
                     </div>
                 </a>
 
-                <a href="tel:0359767860" title="Contacter l'entreprise Renard par fixe" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
-                    <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-phone"></i></span>
+                <a href="tel:0359767860" title="Contacter l'entreprise Renard par fixe" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg shrink-0"><i class="fa-solid fa-phone"></i></span>
                     <div class="text-left">
                         <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">Téléphone fixe</span>
-                        <span class="text-lg font-bold text-slate-950">03 59 76 78 60</span>
+                        <span class="text-base xl:text-lg font-bold text-slate-950 whitespace-nowrap">03 59 76 78 60</span>
                     </div>
                 </a>
-            </div>
 
-            <a href="mailto:cynthiarenard.2104@gmail.com" title="Envoyer un e-mail à Cynthia Renard" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm max-w-lg mx-auto">
-                <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-envelope"></i></span>
-                <div class="text-left">
-                    <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">E-mail</span>
-                    <span class="text-base font-bold text-slate-950">cynthiarenard.2104@gmail.com</span>
-                </div>
-            </a>
+                <a href="mailto:cynthiarenard.2104@gmail.com" title="Envoyer un e-mail à Cynthia Renard" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow col-span-1 sm:col-span-2 lg:col-span-1">
+                    <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg shrink-0"><i class="fa-solid fa-envelope"></i></span>
+                    <div class="text-left overflow-hidden">
+                        <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">E-mail</span>
+                        <span class="text-sm xl:text-base font-bold text-slate-950 block truncate" title="cynthiarenard.2104@gmail.com">cynthiarenard.2104@gmail.com</span>
+                    </div>
+                </a>
+
+            </div>
         </div>
 
     </div>
