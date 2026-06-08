@@ -162,7 +162,6 @@
     </div>
 </section>
 
-<!-- SECTION RÉALISATIONS - IMAGES ENTIÈRES ET ALIGNÉES -->
 <section id="realisations" class="py-16 bg-white border-t border-gray-100">
     <div class="max-w-6xl mx-auto px-4">
 
@@ -174,42 +173,36 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            <!-- Projet 1 -->
             <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                 <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
                     <img src="{{ asset('images/realisations/toiture-avant-apres.jpg') }}" alt="Traitement hydrofuge de toiture avant après par Renard Cynthia" class="max-w-full max-h-full object-contain">
                 </div>
             </div>
 
-            <!-- Projet 2 -->
             <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                 <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
                     <img src="{{ asset('images/realisations/terrasse-hydrofuge-avant-apres.jpg') }}" alt="Traitement hydrofuge de terrasse en dalles avant après" class="max-w-full max-h-full object-contain">
                 </div>
             </div>
 
-            <!-- Projet 3 -->
             <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                 <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
                     <img src="{{ asset('images/realisations/allees-murs-avant-apres.jpg') }}" alt="Nettoyage d'une allée pavée et murs extérieurs" class="max-w-full max-h-full object-contain">
                 </div>
             </div>
 
-            <!-- Projet 4 -->
             <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                 <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
                     <img src="{{ asset('images/realisations/facade-hydrofuge-avant-apres.jpg') }}" alt="Démonstration de l'effet perlant d'un hydrofuge de façade" class="w-full h-full object-contain">
                 </div>
             </div>
 
-            <!-- Projet 5 -->
             <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                 <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
                     <img src="{{ asset('images/realisations/facade-nettoyage-avant-apres.jpg') }}" alt="Nettoyage et démoussage complet d'un mur de façade" class="w-full h-full object-contain">
                 </div>
             </div>
 
-            <!-- Projet 6 -->
             <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                 <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
                     <img src="{{ asset('images/realisations/terrasse-bois-avant-apres.jpg') }}" alt="Nettoyage et dégrisement d'une terrasse en bois avant après" class="max-w-full max-h-full object-contain">
