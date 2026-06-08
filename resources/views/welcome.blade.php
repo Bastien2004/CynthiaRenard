@@ -257,6 +257,9 @@
                 <span>•</span>
                 <a href="{{ route('legal.confidentialite') }}" title="Consulter la politique de confidentialité" class="hover:text-white transition-colors">Politique de confidentialité</a>
             </div>
+            <a href="https://guideon.dev" target="_blank" rel="noopener noreferrer" class="text-[11px] hover:text-orange-500 transition-colors mt-1">
+                Développé par GuideOn
+            </a>
         </div>
 
     </div>
