@@ -10,7 +10,6 @@
 </head>
 <body class="bg-gray-50 text-slate-800 font-sans antialiased flex flex-col min-h-screen">
 
-<!-- En-tête simple -->
 <header class="bg-white shadow-sm py-4">
     <div class="max-w-4xl mx-auto px-4 flex justify-between items-center">
         <a href="/" class="flex items-center gap-2 font-extrabold text-slate-900">
@@ -22,7 +21,6 @@
     </div>
 </header>
 
-<!-- Contenu -->
 <main class="flex-grow max-w-4xl mx-auto px-4 py-12">
     <div class="bg-white rounded-2xl p-8 md:p-12 shadow-sm border border-gray-100 space-y-8">
         <div>
@@ -66,7 +64,6 @@
     </div>
 </main>
 
-<!-- Pied de page simple -->
 <footer class="bg-slate-900 text-gray-400 py-6 text-xs text-center border-t border-slate-800">
     <p>© {{ date('Y') }} Renard Cynthia. Tous droits réservés.</p>
 </footer>

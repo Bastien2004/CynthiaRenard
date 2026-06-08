@@ -3,7 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Balises Principales -->
     <title>Renard Cynthia | Nettoyage Intérieur & Extérieur de Maison</title>
+    <meta name="description" content="Entreprise spécialisée dans le nettoyage intérieur et extérieur de maison pour particuliers et professionnels. Produits écologiques et résultat garanti 5 ans.">
+    <meta name="keywords" content="nettoyage maison, nettoyage intérieur, nettoyage extérieur, démoussage toiture, traitement façade, entretien terrasse, nettoyage vitres, Renard Cynthia">
+    <meta name="author" content="Renard Cynthia">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <!-- Open Graph / Facebook (Partage Réseaux Sociaux) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="Renard Cynthia | Nettoyage Intérieur & Extérieur de Maison">
+    <meta property="og:description" content="Entreprise spécialisée dans le nettoyage intérieur et extérieur de maison. Produits écologiques et résultat garanti 5 ans. Demandez votre devis gratuit !">
+    <meta property="og:image" content="{{ asset('images/Renard1.png') }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ url()->current() }}">
+    <meta property="twitter:title" content="Renard Cynthia | Nettoyage Intérieur & Extérieur de Maison">
+    <meta property="twitter:description" content="Entreprise spécialisée dans le nettoyage intérieur et extérieur de maison. Produits écologiques et résultat garanti 5 ans. Demandez votre devis gratuit !">
+    <meta property="twitter:image" content="{{ asset('images/Renard1.png') }}">
 
     <!-- 1. FontAwesome (Icônes) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -16,14 +37,13 @@
 </head>
 <body class="bg-gray-50 text-slate-800 font-sans antialiased">
 
-<!-- BARRE DE CONTACT RAPIDE (Tout en haut) -->
 <div class="bg-slate-900 text-white py-2 px-4 text-xs md:text-sm">
     <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="tel:0699233805" class="hover:text-orange-500 transition-colors">
+            <a href="tel:0699233805" title="Appeler le mobile de Cynthia Renard" class="hover:text-orange-500 transition-colors">
                 <i class="fa-solid fa-phone text-orange-500 mr-1"></i> 06 99 23 38 05
             </a>
-            <a href="tel:0359767860" class="hover:text-orange-500 transition-colors">
+            <a href="tel:0359767860" title="Appeler le téléphone fixe" class="hover:text-orange-500 transition-colors">
                 <i class="fa-solid fa-phone text-orange-500 mr-1"></i> 03 59 76 78 60
             </a>
         </div>
@@ -35,37 +55,27 @@
     </div>
 </div>
 
-<!-- EN-TÊTE / NAVIGATION -->
 <header class="bg-white shadow-sm sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <!-- Logo avec texte et emplacement icône/mascotte -->
-        <a href="#" class="flex items-center gap-3">
-            <!-- Emplacement pour le logo ou l'image de la mascotte Renard -->
-            <div class="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center text-white font-bold text-xl">
-                <!-- Vous pourrez remplacer ce bloc par : <img src="chemin/votre-image-renard.png" alt="Logo Renard"> -->
-                🦊
-            </div>
+        <a href="#" title="Retour en haut de page" class="flex items-center gap-3">
             <div>
                 <span class="block text-xl font-extrabold tracking-tight text-slate-900">Renard Cynthia</span>
                 <span class="block text-[10px] uppercase tracking-widest text-orange-500 font-bold -mt-1">Nettoyage Maison</span>
             </div>
         </a>
 
-        <!-- Menu simple -->
         <nav class="hidden md:flex items-center gap-6 font-semibold text-sm">
-            <a href="#prestations" class="hover:text-orange-500 transition-colors">Nos Prestations</a>
-            <a href="#engagements" class="hover:text-orange-500 transition-colors">Nos Engagements</a>
-            <a href="#contact" class="hover:text-orange-500 transition-colors">Contact & Devis</a>
+            <a href="#prestations" title="Voir nos prestations de nettoyage" class="hover:text-orange-500 transition-colors">Nos Prestations</a>
+            <a href="#engagements" title="Découvrir nos engagements qualité" class="hover:text-orange-500 transition-colors">Nos Engagements</a>
+            <a href="#contact" title="Prendre contact ou demander un devis" class="hover:text-orange-500 transition-colors">Contact & Devis</a>
         </nav>
     </div>
 </header>
 
-<!-- SECTION PRINCIPALE (HERO) -->
-<section class="bg-white py-12 md:py-20 border-b border-gray-100">
+<section class="bg-gradient-to-b from-white to-orange-50/40 py-12 md:py-20 border-b border-gray-100 overflow-hidden">
     <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
 
-        <!-- Texte accroche (gauche) -->
-        <div class="space-y-6">
+        <div class="space-y-6 z-10">
             <div class="inline-block bg-orange-100 text-orange-600 font-bold px-3 py-1 rounded-full text-xs uppercase tracking-wide">
                 Intervention à domicile
             </div>
@@ -78,21 +88,27 @@
             </p>
 
             <div class="flex flex-col sm:flex-row gap-3 pt-2">
-                <a href="#contact" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-bold text-center transition-colors">
+                <a href="#contact" title="Aller vers le formulaire de devis gratuit" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-bold text-center transition-all hover:shadow-lg hover:shadow-orange-500/20">
                     Demander mon Devis Gratuit
                 </a>
-                <a href="tel:0699233805" class="bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold text-center transition-colors flex items-center justify-center gap-2">
+                <a href="tel:0699233805" title="Contacter Cynthia Renard par téléphone" class="bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-bold text-center transition-colors flex items-center justify-center gap-2">
                     <i class="fa-solid fa-phone"></i> 06 99 23 38 05
                 </a>
             </div>
         </div>
 
-        <div class="relative flex justify-center">
-            <img src="{{ asset('images/Renard1.png') }}"
-                 alt="Nettoyage professionnel de maison"
-                 class="w-full max-w-md aspect-[4/3] rounded-2xl object-cover shadow-xl border-4 border-white">
+        <div class="relative flex justify-center items-center">
+            <div class="absolute w-72 h-72 bg-orange-200/60 rounded-full blur-3xl -z-10 animate-pulse"></div>
+            <div class="absolute w-48 h-48 bg-slate-200/50 rounded-full blur-2xl translate-x-12 translate-y-12 -z-10"></div>
 
-            <div class="absolute -top-4 -right-4 bg-orange-500 text-white w-20 h-20 rounded-full flex flex-col items-center justify-center text-center shadow-lg font-bold text-xs p-1 transform rotate-12">
+            <div class="relative p-3 bg-white rounded-3xl shadow-2xl border border-slate-100/80 max-w-md w-full overflow-hidden group">
+                <img src="{{ asset('images/Renard1.png') }}"
+                     alt="Prestation de nettoyage professionnel de maison par l'entreprise Renard Cynthia"
+                     class="w-full h-auto rounded-2xl object-cover transition-transform duration-500 group-hover:scale-102">
+
+            </div>
+
+            <div class="absolute -top-4 -right-3 bg-gradient-to-br from-orange-500 to-red-600 text-white w-20 h-20 rounded-full flex flex-col items-center justify-center text-center shadow-xl shadow-orange-500/30 font-bold text-xs p-1 transform rotate-12 transition-transform hover:scale-110 z-20">
                 <span>Garantie</span>
                 <span class="text-lg font-extrabold">5 Ans</span>
             </div>
@@ -101,7 +117,6 @@
     </div>
 </section>
 
-<!-- LES PRESTATIONS (Intérieur / Extérieur) -->
 <section id="prestations" class="py-16 bg-gray-50">
     <div class="max-w-6xl mx-auto px-4">
 
@@ -113,7 +128,6 @@
 
         <div class="grid md:grid-cols-2 gap-8">
 
-            <!-- Bloc Nettoyage Intérieur -->
             <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div class="flex items-center gap-3 mb-6">
                     <span class="w-12 h-12 bg-orange-100 text-orange-500 rounded-xl flex items-center justify-center text-xl"><i class="fa-solid fa-house-user"></i></span>
@@ -129,7 +143,6 @@
                 </ul>
             </div>
 
-            <!-- Bloc Nettoyage Extérieur -->
             <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div class="flex items-center gap-3 mb-6">
                     <span class="w-12 h-12 bg-orange-100 text-orange-500 rounded-xl flex items-center justify-center text-xl"><i class="fa-solid fa-fill-drip"></i></span>
@@ -149,7 +162,6 @@
     </div>
 </section>
 
-<!-- NOS ENGAGEMENTS & ENGAGEMENTS QUALITÉ (Badges du flyer) -->
 <section id="engagements" class="py-16 bg-white border-t border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-4">
 
@@ -159,7 +171,6 @@
             <div class="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
         </div>
 
-        <!-- Grille des 5 points forts / badges du flyer -->
         <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
             <div class="p-4 flex flex-col items-center">
                 <div class="w-12 h-12 bg-orange-100 text-orange-500 rounded-full flex items-center justify-center text-xl mb-3"><i class="fa-solid fa-spray-can-sparkles"></i></div>
@@ -183,7 +194,6 @@
             </div>
         </div>
 
-        <!-- Encadré Devis Gratuit -->
         <div class="mt-12 bg-orange-500 text-white rounded-2xl p-6 md:p-8 text-center max-w-3xl mx-auto">
             <h4 class="text-xl md:text-2xl font-black uppercase tracking-wider">Devis et échantillons gratuits</h4>
             <p class="text-sm md:text-base text-orange-100 mt-2">Nous nous déplaçons pour vous montrer des échantillons de produits et estimer gratuitement le nettoyage de votre maison.</p>
@@ -192,7 +202,6 @@
     </div>
 </section>
 
-<!-- SECTION CONTACT & INFOS -->
 <section id="contact" class="py-16 bg-gray-50">
     <div class="max-w-3xl mx-auto px-4">
 
@@ -202,9 +211,8 @@
                 <p class="text-gray-600 mt-2">Nous répondons à toutes vos questions et demandes de rendez-vous dans les plus brefs délais.</p>
             </div>
 
-            <!-- Téléphone direct et fixe -->
             <div class="grid sm:grid-cols-2 gap-4">
-                <a href="tel:0699233805" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
+                <a href="tel:0699233805" title="Contacter l'entreprise Renard par mobile" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
                     <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-mobile-screen"></i></span>
                     <div class="text-left">
                         <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">Mobile direct</span>
@@ -212,7 +220,7 @@
                     </div>
                 </a>
 
-                <a href="tel:0359767860" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
+                <a href="tel:0359767860" title="Contacter l'entreprise Renard par fixe" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
                     <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-phone"></i></span>
                     <div class="text-left">
                         <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">Téléphone fixe</span>
@@ -221,28 +229,18 @@
                 </a>
             </div>
 
-            <!-- E-mail -->
-            <a href="mailto:cynthiarenard.2104@gmail.com" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm max-w-lg mx-auto">
+            <a href="mailto:cynthiarenard.2104@gmail.com" title="Envoyer un e-mail à Cynthia Renard" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm max-w-lg mx-auto">
                 <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-envelope"></i></span>
                 <div class="text-left">
                     <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">E-mail</span>
                     <span class="text-base font-bold text-slate-950">cynthiarenard.2104@gmail.com</span>
                 </div>
             </a>
-
-            <!-- Google review -->
-            <div class="google-card bg-orange-100 text-orange-800 p-4 rounded-xl border border-orange-200 flex items-center gap-3 max-w-lg mx-auto">
-                <span class="text-2xl text-orange-600"><i class="fa-brands fa-google"></i></span>
-                <div class="text-left">
-                    <p class="font-bold text-sm">Retrouvez-nous sur Google !</p>
-                    <p class="text-xs text-orange-700">Consultez ou laissez un avis sur notre entreprise de nettoyage.</p>
-                </div>
-            </div>
         </div>
 
     </div>
 </section>
-<!-- PIED DE PAGE & MENTIONS LÉGALES -->
+
 <footer class="bg-slate-900 text-gray-400 pt-10 pb-6 text-xs border-t border-slate-800">
     <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
 
@@ -255,9 +253,9 @@
         <div class="flex flex-col items-center md:items-end gap-2">
             <p>© {{ date('Y') }} Renard Cynthia. Tous droits réservés.</p>
             <div class="flex gap-4">
-                <a href="{{ route('legal.mentions') }}" class="hover:text-white transition-colors">Mentions légales</a>
+                <a href="{{ route('legal.mentions') }}" title="Consulter les mentions légales" class="hover:text-white transition-colors">Mentions légales</a>
                 <span>•</span>
-                <a href="{{ route('legal.confidentialite') }}" class="hover:text-white transition-colors">Politique de confidentialité</a>
+                <a href="{{ route('legal.confidentialite') }}" title="Consulter la politique de confidentialité" class="hover:text-white transition-colors">Politique de confidentialité</a>
             </div>
         </div>
 
