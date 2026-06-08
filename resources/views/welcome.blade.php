@@ -281,9 +281,9 @@
 
                 <a href="mailto:cynthiarenard.2104@gmail.com" title="Envoyer un e-mail à Cynthia Renard" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow col-span-1 sm:col-span-2 lg:col-span-1">
                     <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg shrink-0"><i class="fa-solid fa-envelope"></i></span>
-                    <div class="text-left overflow-hidden">
+                    <div class="text-left min-w-0 flex-1">
                         <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">E-mail</span>
-                        <span class="text-sm xl:text-base font-bold text-slate-950 block truncate" title="cynthiarenard.2104@gmail.com">cynthiarenard.2104@gmail.com</span>
+                        <span class="text-xs sm:text-sm xl:text-base font-bold text-slate-950 block whitespace-nowrap">cynthiarenard.2104@gmail.com</span>
                     </div>
                 </a>
 
