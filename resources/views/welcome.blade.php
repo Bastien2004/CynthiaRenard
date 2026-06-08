@@ -2,7 +2,7 @@
 <html lang="fr" class="scroll-smooth">
 <head>
 
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='100' height='100'><mask id='circle'><circle cx='50' cy='50' r='50' fill='white'/></mask><g mask='url(%23circle)'><image href='{{ asset('images/favicon-renard.jpg') }}' x='-25' y='-5' width='150' height='150'/></g></svg>">
+    <link rel="icon" type="image/png" href="{{ asset('images/favicon-renard.jpg') }}">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
