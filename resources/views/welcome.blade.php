@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renard Cynthia | Nettoyage Intérieur & Extérieur de Maison</title>
-    <!-- Tailwind CSS pour un design moderne, propre et facile à modifier -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Icônes FontAwesome -->
+
+    <!-- 1. FontAwesome (Icônes) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- 2. Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 3. Votre style personnalisé (Placé APRÈS Tailwind pour avoir la priorité) -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body class="bg-gray-50 text-slate-800 font-sans antialiased">
 
@@ -52,11 +57,6 @@
             <a href="#engagements" class="hover:text-orange-500 transition-colors">Nos Engagements</a>
             <a href="#contact" class="hover:text-orange-500 transition-colors">Contact & Devis</a>
         </nav>
-
-        <!-- Bouton d'appel direct -->
-        <a href="tel:0699233805" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-bold text-sm transition-colors flex items-center gap-2">
-            <i class="fa-solid fa-phone"></i> Appeler
-        </a>
     </div>
 </header>
 
@@ -87,16 +87,11 @@
             </div>
         </div>
 
-        <!-- Image ou Mascotte (droite) -->
         <div class="relative flex justify-center">
-            <!-- Vous pourrez insérer ici votre image du renard ou de la maison propre depuis votre BDD -->
-            <div class="w-full max-w-md aspect-[4/3] bg-gray-200 rounded-2xl flex flex-col items-center justify-center text-gray-400 p-6 border-2 border-dashed border-gray-300">
-                <i class="fa-solid fa-image text-4xl mb-2"></i>
-                <p class="text-sm font-bold text-center">Emplacement : Image de la maison ou Mascotte Renard</p>
-                <p class="text-xs text-center mt-1">(À remplacer par votre balise &lt;img&gt; de base de données)</p>
-            </div>
+            <img src="{{ asset('images/Renard1.png') }}"
+                 alt="Nettoyage professionnel de maison"
+                 class="w-full max-w-md aspect-[4/3] rounded-2xl object-cover shadow-xl border-4 border-white">
 
-            <!-- Badge Garantie 5 ans -->
             <div class="absolute -top-4 -right-4 bg-orange-500 text-white w-20 h-20 rounded-full flex flex-col items-center justify-center text-center shadow-lg font-bold text-xs p-1 transform rotate-12">
                 <span>Garantie</span>
                 <span class="text-lg font-extrabold">5 Ans</span>
@@ -180,11 +175,11 @@
             </div>
             <div class="p-4 flex flex-col items-center">
                 <div class="w-12 h-12 bg-orange-100 text-orange-500 rounded-full flex items-center justify-center text-xl mb-3"><i class="fa-solid fa-user-shield"></i></div>
-                <span class="text-xs font-bold uppercase tracking-wider text-slate-700">Produits réservés pro</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-700">Produits réservés professionnel, artisan</span>
             </div>
             <div class="p-4 flex flex-col items-center col-span-2 md:col-span-1">
                 <div class="w-12 h-12 bg-orange-100 text-orange-500 rounded-full flex items-center justify-center text-xl mb-3"><span class="text-base font-extrabold text-orange-600">FR</span></div>
-                <span class="text-xs font-bold uppercase tracking-wider text-slate-700">Savoir-faire 100% français</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-700">100% français</span>
             </div>
         </div>
 
@@ -199,93 +194,70 @@
 
 <!-- SECTION CONTACT & INFOS -->
 <section id="contact" class="py-16 bg-gray-50">
-    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10">
+    <div class="max-w-3xl mx-auto px-4">
 
-        <!-- Informations de contact directes (Gauche) -->
-        <div class="space-y-6">
+        <div class="space-y-6 text-center">
             <div>
                 <h2 class="text-3xl font-black text-slate-900">Contactez-nous</h2>
                 <p class="text-gray-600 mt-2">Nous répondons à toutes vos questions et demandes de rendez-vous dans les plus brefs délais.</p>
             </div>
 
-            <!-- Téléphone direct cliquable -->
-            <div class="space-y-3">
-                <a href="tel:0699233805" class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:border-orange-500 border border-transparent transition-all">
+            <!-- Téléphone direct et fixe -->
+            <div class="grid sm:grid-cols-2 gap-4">
+                <a href="tel:0699233805" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
                     <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-mobile-screen"></i></span>
-                    <div>
+                    <div class="text-left">
                         <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">Mobile direct</span>
                         <span class="text-lg font-bold text-slate-950">06 99 23 38 05</span>
                     </div>
                 </a>
 
-                <a href="tel:0359767860" class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:border-orange-500 border border-transparent transition-all">
+                <a href="tel:0359767860" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
                     <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-phone"></i></span>
-                    <div>
+                    <div class="text-left">
                         <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">Téléphone fixe</span>
                         <span class="text-lg font-bold text-slate-950">03 59 76 78 60</span>
                     </div>
                 </a>
-
-                <a href="mailto:cynthiarenard.2104@gmail.com" class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:border-orange-500 border border-transparent transition-all">
-                    <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-envelope"></i></span>
-                    <div>
-                        <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">E-mail</span>
-                        <span class="text-base font-bold text-slate-950 truncate">cynthiarenard.2104@gmail.com</span>
-                    </div>
-                </a>
             </div>
 
-            <!-- Google review call-out -->
-            <div class="bg-orange-100 text-orange-800 p-4 rounded-xl border border-orange-200 flex items-center gap-3">
+            <!-- E-mail -->
+            <a href="mailto:cynthiarenard.2104@gmail.com" class="contact-item flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm max-w-lg mx-auto">
+                <span class="w-10 h-10 bg-orange-100 text-orange-500 rounded-lg flex items-center justify-center text-lg"><i class="fa-solid fa-envelope"></i></span>
+                <div class="text-left">
+                    <span class="block text-xs text-gray-400 font-bold uppercase tracking-wide">E-mail</span>
+                    <span class="text-base font-bold text-slate-950">cynthiarenard.2104@gmail.com</span>
+                </div>
+            </a>
+
+            <!-- Google review -->
+            <div class="google-card bg-orange-100 text-orange-800 p-4 rounded-xl border border-orange-200 flex items-center gap-3 max-w-lg mx-auto">
                 <span class="text-2xl text-orange-600"><i class="fa-brands fa-google"></i></span>
-                <div>
+                <div class="text-left">
                     <p class="font-bold text-sm">Retrouvez-nous sur Google !</p>
                     <p class="text-xs text-orange-700">Consultez ou laissez un avis sur notre entreprise de nettoyage.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Formulaire de contact ultra simple (Droite) -->
-        <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
-            <h3 class="text-lg font-bold text-slate-900 mb-4">Demande de devis / Renseignements</h3>
-            <form action="#" method="POST" class="space-y-4">
-                <div>
-                    <label class="block text-xs font-bold uppercase text-gray-400 mb-1">Votre Nom *</label>
-                    <input type="text" required placeholder="Ex: Jean Dupont" class="w-full border border-gray-200 focus:border-orange-500 focus:ring-1 focus:ring-orange-500 rounded-lg px-3 py-2 bg-gray-50 focus:outline-none transition-all">
-                </div>
-                <div>
-                    <label class="block text-xs font-bold uppercase text-gray-400 mb-1">Téléphone *</label>
-                    <input type="tel" required placeholder="Ex: 06 00 00 00 00" class="w-full border border-gray-200 focus:border-orange-500 focus:ring-1 focus:ring-orange-500 rounded-lg px-3 py-2 bg-gray-50 focus:outline-none transition-all">
-                </div>
-                <div>
-                    <label class="block text-xs font-bold uppercase text-gray-400 mb-1">Votre demande</label>
-                    <textarea rows="4" placeholder="Indiquez le type de nettoyage souhaité (ex: Toiture 100m² ou nettoyage intérieur complet)..." class="w-full border border-gray-200 focus:border-orange-500 focus:ring-1 focus:ring-orange-500 rounded-lg px-3 py-2 bg-gray-50 focus:outline-none transition-all"></textarea>
-                </div>
-                <button type="submit" class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg font-bold uppercase tracking-wider text-sm transition-colors">
-                    Envoyer ma demande
-                </button>
-            </form>
-        </div>
-
     </div>
 </section>
-
 <!-- PIED DE PAGE & MENTIONS LÉGALES -->
 <footer class="bg-slate-900 text-gray-400 pt-10 pb-6 text-xs border-t border-slate-800">
     <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
 
         <div class="space-y-2 text-center md:text-left">
             <span class="block text-white font-extrabold text-base">Renard Cynthia</span>
-            <p>N° SIRET : 123 456 789 00012 (À renseigner ou laisser vide temporairement)</p>
+            <p>N° SIRET : 123 456 789 00012 </p>
             <p>Garantie contractuelle de 5 ans sur les démoussages de toiture.</p>
         </div>
 
         <div class="flex flex-col items-center md:items-end gap-2">
-            <p>© 2026 Renard Cynthia. Tous droits réservés.</p>
+            <p>© {{ date('Y') }} Renard Cynthia. Tous droits réservés.</p>
             <div class="flex gap-4">
-                <a href="#" class="hover:text-white transition-colors">Mentions légales</a>
+                <a href="{{ route('legal.mentions') }}" class="hover:text-white transition-colors">Mentions légales</a>
                 <span>•</span>
-                <a href="#" class="hover:text-white transition-colors">Politique de confidentialité</a>
+                <a href="{{ route('legal.confidentialite') }}" class="hover:text-white transition-colors">Politique de confidentialité</a>
             </div>
         </div>
 
