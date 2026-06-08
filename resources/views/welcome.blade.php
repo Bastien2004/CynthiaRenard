@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr" class="scroll-smooth">
 <head>
+
+    <link rel="icon" type="image/png" href="{{ asset('images/favicon-renard.jpg') }}">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
