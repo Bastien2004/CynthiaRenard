@@ -217,7 +217,7 @@
 
         <div class="text-center max-w-2xl mx-auto mb-12">
             <h2 class="text-3xl font-black text-slate-900">Pourquoi nous faire confiance ?</h2>
-            <p class="text-gray-600 mt-2">Nous garantissons un service de quality supérieure conforme à vos exigences.</p>
+            <p class="text-gray-600 mt-2">Nous garantissons un service de haute qualité, conforme à vos exigences.</p>
             <div class="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
         </div>
 
