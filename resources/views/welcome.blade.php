@@ -276,6 +276,15 @@
                     </div>
                 </div>
 
+                <!-- PNG portrait : object-contain -->
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-gray-100">
+                    <div class="w-full aspect-video overflow-hidden flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/facade.png') }}"
+                             alt="Nettoyage de bâtiment"
+                             class="w-full h-full object-contain">
+                    </div>
+                </div>
+
             </div>
 
             <!-- Boutons Flèches -->
