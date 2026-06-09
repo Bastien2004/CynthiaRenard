@@ -142,6 +142,7 @@
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Vitres et surfaces</li>
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Dépoussiérage complet</li>
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Nettoyage en profondeur</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Locaux commerciaux intérieur & extérieur</li>
                 </ul>
             </div>
 
@@ -157,6 +158,7 @@
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Allées et cours</li>
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Murs et clôture</li>
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Hydrofuge & Anti-mousse</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Nettoyage de bâtiment</li>
                 </ul>
             </div>
 
