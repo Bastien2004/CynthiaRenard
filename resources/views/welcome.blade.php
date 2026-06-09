@@ -177,30 +177,34 @@
 
             <div class="flex realisations-carousel gap-6 overflow-x-auto pb-4 scroll-smooth snap-x snap-mandatory">
 
+                <!-- PNG : object-contain -->
                 <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
                     <div class="w-full aspect-video overflow-hidden">
                         <img src="{{ asset('images/realisations/allees-murs-avant-apres.jpg') }}"
                              alt="Nettoyage allées et murs"
-                             class="w-full h-full object-cover object-center">
+                             class="w-full h-full object-contain object-center">
                     </div>
                 </div>
 
-                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
-                    <div class="w-full aspect-video overflow-hidden">
+                <!-- JPG : object-contain -->
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-gray-100">
+                    <div class="w-full aspect-video overflow-hidden flex items-center justify-center">
                         <img src="{{ asset('images/realisations/facade-hydrofuge-avant-apres.jpg') }}"
                              alt="Traitement hydrofuge de façade"
-                             class="w-full h-full object-cover object-center">
+                             class="w-full h-full object-contain">
                     </div>
                 </div>
 
-                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
-                    <div class="w-full aspect-video overflow-hidden">
+                <!-- JPG : object-contain -->
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-gray-100">
+                    <div class="w-full aspect-video overflow-hidden flex items-center justify-center">
                         <img src="{{ asset('images/realisations/facade-nettoyage-avant-apres.jpg') }}"
                              alt="Nettoyage de façade"
-                             class="w-full h-full object-cover object-center">
+                             class="w-full h-full object-contain">
                     </div>
                 </div>
 
+                <!-- PNG : object-cover -->
                 <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
                     <div class="w-full aspect-video overflow-hidden">
                         <img src="{{ asset('images/realisations/nettoyage-batiment.png') }}"
@@ -209,6 +213,7 @@
                     </div>
                 </div>
 
+                <!-- PNG : object-cover -->
                 <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
                     <div class="w-full aspect-video overflow-hidden">
                         <img src="{{ asset('images/realisations/nettoyage-commerciaux-exterieur.png') }}"
@@ -217,6 +222,7 @@
                     </div>
                 </div>
 
+                <!-- PNG : object-cover -->
                 <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
                     <div class="w-full aspect-video overflow-hidden">
                         <img src="{{ asset('images/realisations/nettoyage-maison-interieur.png') }}"
@@ -225,6 +231,7 @@
                     </div>
                 </div>
 
+                <!-- PNG : object-cover -->
                 <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
                     <div class="w-full aspect-video overflow-hidden">
                         <img src="{{ asset('images/realisations/nettoyage-parties-communes.png') }}"
@@ -233,6 +240,7 @@
                     </div>
                 </div>
 
+                <!-- PNG : object-cover -->
                 <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
                     <div class="w-full aspect-video overflow-hidden">
                         <img src="{{ asset('images/realisations/nettoyage-vitre.png') }}"
@@ -241,27 +249,30 @@
                     </div>
                 </div>
 
-                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
-                    <div class="w-full aspect-video overflow-hidden">
+                <!-- JPG : object-contain -->
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-gray-100">
+                    <div class="w-full aspect-video overflow-hidden flex items-center justify-center">
                         <img src="{{ asset('images/realisations/terrasse-bois-avant-apres.jpg') }}"
                              alt="Nettoyage terrasse en bois"
-                             class="w-full h-full object-cover object-center">
+                             class="w-full h-full object-contain">
                     </div>
                 </div>
 
-                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
-                    <div class="w-full aspect-video overflow-hidden">
+                <!-- JPG : object-contain -->
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-gray-100">
+                    <div class="w-full aspect-video overflow-hidden flex items-center justify-center">
                         <img src="{{ asset('images/realisations/terrasse-hydrofuge-avant-apres.jpg') }}"
                              alt="Traitement hydrofuge de terrasse"
-                             class="w-full h-full object-cover object-center">
+                             class="w-full h-full object-contain">
                     </div>
                 </div>
 
-                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-white">
-                    <div class="w-full aspect-video overflow-hidden">
+                <!-- JPG : object-contain -->
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start rounded-2xl overflow-hidden shadow-sm border border-gray-100 bg-gray-100">
+                    <div class="w-full aspect-video overflow-hidden flex items-center justify-center">
                         <img src="{{ asset('images/realisations/toiture-avant-apres.jpg') }}"
                              alt="Nettoyage et démoussage de toiture"
-                             class="w-full h-full object-cover object-center">
+                             class="w-full h-full object-contain">
                     </div>
                 </div>
 
