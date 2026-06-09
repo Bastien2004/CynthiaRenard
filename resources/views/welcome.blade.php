@@ -301,8 +301,7 @@
     <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
 
         <div class="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
-            <img src="{{ asset('images/logo-artisan.png') }}" alt="Logo Artisan" class="h-14 w-auto object-contain bg-white p-1 rounded-md">
-
+            <img src="{{ asset('images/logo-artisan.png') }}" alt="Logo Artisan" class="h-14 w-auto object-contain">
             <div class="space-y-1">
                 <span class="block text-white font-extrabold text-base">Renard Cynthia</span>
                 <p>N° SIRET :  </p>
