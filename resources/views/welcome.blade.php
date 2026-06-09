@@ -345,7 +345,7 @@
         <div class="space-y-6 text-center">
             <div>
                 <h2 class="text-3xl font-black text-slate-900">Contactez-nous</h2>
-                <p class="text-gray-600 mt-2">Nous répondons à toutes vos questions et demandes de rendez-vous dans les plus brefs délais.</p>
+                <p class="text-gray-600 mt-2">Nous répondrons à toutes vos questions et demandes de rendez-vous dans les plus brefs délais.</p>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
