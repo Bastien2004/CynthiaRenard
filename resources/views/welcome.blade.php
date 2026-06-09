@@ -20,14 +20,14 @@
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:title" content="Renard Cynthia | Nettoyage Intérieur & Extérieur de Maison">
     <meta property="og:description" content="Entreprise spécialisée dans le nettoyage intérieur et extérieur de maison. Produits écologiques et résultat garanti 5 ans. Demandez votre devis gratuit !">
-    <meta property="og:image" content="{{ asset('images/Renard1.png') }}">
+    <meta property="og:image" content="{{ asset('images/renard1.png') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ url()->current() }}">
     <meta property="twitter:title" content="Renard Cynthia | Nettoyage Intérieur & Extérieur de Maison">
     <meta property="twitter:description" content="Entreprise spécialisée dans le nettoyage intérieur et extérieur de maison. Produits écologiques et résultat garanti 5 ans. Demandez votre devis gratuit !">
-    <meta property="twitter:image" content="{{ asset('images/Renard1.png') }}">
+    <meta property="twitter:image" content="{{ asset('images/renard1.png') }}">
 
     <!-- 1. FontAwesome (Icônes) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -106,7 +106,7 @@
             <div class="absolute w-48 h-48 bg-slate-200/50 rounded-full blur-2xl translate-x-12 translate-y-12 -z-10"></div>
 
             <div class="relative p-3 bg-white rounded-3xl shadow-2xl border border-slate-100/80 max-w-md w-full overflow-hidden group">
-                <img src="{{ asset('images/Renard1.png') }}"
+                <img src="{{ asset('images/renard1.png') }}"
                      alt="Prestation de nettoyage professionnel de maison par l'entreprise Renard Cynthia"
                      class="w-full h-auto rounded-2xl object-cover transition-transform duration-500 group-hover:scale-102">
             </div>
