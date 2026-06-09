@@ -125,8 +125,7 @@
 
         <div class="text-center max-w-2xl mx-auto mb-12">
             <h2 class="text-3xl font-black text-slate-900">Nos Services de Nettoyage</h2>
-            <p class="text-gray-600 mt-2">Découvrez le détail de nos prestations d'entretien à domicile.</p>
-            <div class="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
+            <p class="text-gray-600 mt-2">Découvrez le détail de nos prestations de traitements préventifs & curatifs à domicile.</p>            <div class="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
