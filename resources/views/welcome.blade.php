@@ -166,52 +166,95 @@
     </div>
 </section>
 
-<section id="realisations" class="py-16 bg-white border-t border-gray-100">
-    <div class="max-w-6xl mx-auto px-4">
+<section id="realisations" class="py-16 bg-white border-t border-gray-100 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4">
 
         <div class="text-center max-w-2xl mx-auto mb-12">
             <h2 class="text-3xl font-black text-slate-900">Nos Réalisations Avant / Après</h2>
-            <p class="text-gray-600 mt-2">Découvrez les résultats bluffants de nos interventions de nettoyage et traitements protecteurs.</p>
+            <p class="text-gray-600 mt-2">Découvrez les résultats bluffants de nos interventions. Faites défiler pour tout voir.</p>
             <div class="w-16 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="realisations-carousel-wrapper relative group">
 
-            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
-                    <img src="{{ asset('images/realisations/toiture-avant-apres.jpg') }}" alt="Traitement hydrofuge de toiture avant après par Renard Cynthia" class="max-w-full max-h-full object-contain">
+            <div class="flex realisations-carousel gap-6 overflow-x-auto pb-4 scroll-smooth snap-x snap-mandatory">
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/allees-murs-avant-apres.jpg') }}" alt="Nettoyage allées et murs" class="max-w-full max-h-full object-contain">
+                    </div>
                 </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/facade-hydrofuge-avant-apres.jpg') }}" alt="Traitement hydrofuge de façade" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/facade-nettoyage-avant-apres.jpg') }}" alt="Nettoyage de façade" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/nettoyage-batiment.jpg') }}" alt="Nettoyage de bâtiment" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/nettoyage-commerciaux-exterieur.jpg') }}" alt="Nettoyage locaux commerciaux extérieur" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/nettoyage-maison-interieur.jpg') }}" alt="Nettoyage intérieur de maison" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/nettoyage-parties-communes.jpg') }}" alt="Nettoyage des parties communes" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/nettoyage-vitre.jpg') }}" alt="Nettoyage de vitres" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/terrasse-bois-avant-apres.jpg') }}" alt="Nettoyage terrasse en bois" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/terrasse-hydrofuge-avant-apres.jpg') }}" alt="Traitement hydrofuge de terrasse" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
+                <div class="carousel-item flex-none w-[85%] sm:w-[45%] lg:w-[31%] snap-start shadow-sm border border-gray-100 rounded-2xl overflow-hidden bg-gray-50 p-4">
+                    <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
+                        <img src="{{ asset('images/realisations/toiture-avant-apres.jpg') }}" alt="Nettoyage et démoussage de toiture" class="max-w-full max-h-full object-contain">
+                    </div>
+                </div>
+
             </div>
 
-            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
-                    <img src="{{ asset('images/realisations/terrasse-hydrofuge-avant-apres.jpg') }}" alt="Traitement hydrofuge de terrasse en dalles avant après" class="max-w-full max-h-full object-contain">
-                </div>
-            </div>
+            <!-- Boutons Flèches -->
+            <button class="carousel-prev absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-slate-800 w-10 h-10 rounded-full shadow-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-10" title="Précédent">
+                <i class="fa-solid fa-chevron-left text-base"></i>
+            </button>
+            <button class="carousel-next absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-slate-800 w-10 h-10 rounded-full shadow-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-10" title="Suivant">
+                <i class="fa-solid fa-chevron-right text-base"></i>
+            </button>
 
-            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
-                    <img src="{{ asset('images/realisations/allees-murs-avant-apres.jpg') }}" alt="Nettoyage d'une allée pavée et murs extérieurs" class="max-w-full max-h-full object-contain">
-                </div>
-            </div>
-
-            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
-                    <img src="{{ asset('images/realisations/facade-hydrofuge-avant-apres.jpg') }}" alt="Démonstration de l'effet perlant d'un hydrofuge de façade" class="w-full h-full object-contain">
-                </div>
-            </div>
-
-            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
-                    <img src="{{ asset('images/realisations/facade-nettoyage-avant-apres.jpg') }}" alt="Nettoyage et démoussage complet d'un mur de façade" class="w-full h-full object-contain">
-                </div>
-            </div>
-
-            <div class="bg-gray-50 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                <div class="rounded-xl overflow-hidden bg-white aspect-[4/3] w-full flex items-center justify-center">
-                    <img src="{{ asset('images/realisations/terrasse-bois-avant-apres.jpg') }}" alt="Nettoyage et dégrisement d'une terrasse en bois avant après" class="max-w-full max-h-full object-contain">
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -323,6 +366,29 @@
 
     </div>
 </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const carousel = document.querySelector('.realisations-carousel');
+        const prevBtn = document.querySelector('.carousel-prev');
+        const nextBtn = document.querySelector('.carousel-next');
+
+        if (carousel && prevBtn && nextBtn) {
+            // Définir la largeur de défilement (largeur d'un item + le gap)
+            // Cela récupère la largeur d'un élément directement depuis le CSS
+            const itemWidth = carousel.querySelector('.carousel-item').offsetWidth;
+            const scrollAmount = itemWidth + 24; // 24 = gap-6 de Tailwind
+
+            prevBtn.addEventListener('click', () => {
+                carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            });
+
+            nextBtn.addEventListener('click', () => {
+                carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            });
+        }
+    });
+</script>
 
 </body>
 </html>

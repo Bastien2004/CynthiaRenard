@@ -63,3 +63,25 @@ body {
 .guideon:hover {
     color: #f97316; /* Rappel du orange de votre marque au survol */
 }
+
+/* --- Styles pour le carrousel de réalisations --- */
+
+/* Masquer la barre de défilement par défaut (WebKit/Blink) */
+.realisations-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+/* Masquer la barre de défilement (Firefox) */
+.realisations-carousel {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Assurer un défilement fluide et un ancrage (snap) */
+.realisations-carousel {
+    scroll-behavior: smooth;
+}
+
+.carousel-item {
+    scroll-snap-align: start;
+}
