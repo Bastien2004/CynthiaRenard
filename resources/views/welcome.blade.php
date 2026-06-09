@@ -432,5 +432,17 @@
     });
 </script>
 
+
+<script type="application/ld+json">
+    {
+      "@context": "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Renard Cynthia",
+      "description": "Entreprise de nettoyage intérieur et extérieur",
+      "url": "https://cynthiarenard.fr/",
+      "telephone": "06 99 23 38 05"
+    }
+</script>
+
 </body>
 </html>
