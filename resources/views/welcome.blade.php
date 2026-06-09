@@ -158,6 +158,7 @@
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Allées et cours</li>
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Murs et clôture</li>
                     <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Hydrofuge & Anti-mousse</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-orange-500"></i> Traitements Préventifs & Curatifs</li>
                 </ul>
             </div>
 
@@ -299,10 +300,14 @@
 <footer class="bg-slate-900 text-gray-400 pt-10 pb-6 text-xs border-t border-slate-800">
     <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
 
-        <div class="space-y-2 text-center md:text-left">
-            <span class="block text-white font-extrabold text-base">Renard Cynthia</span>
-            <p>N° SIRET :  </p>
-            <p>Garantie contractuelle de 5 ans sur les démoussages de toiture.</p>
+        <div class="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
+            <img src="{{ asset('images/logo-artisan.png') }}" alt="Logo Artisan" class="h-14 w-auto object-contain bg-white p-1 rounded-md">
+
+            <div class="space-y-1">
+                <span class="block text-white font-extrabold text-base">Renard Cynthia</span>
+                <p>N° SIRET :  </p>
+                <p>Garantie contractuelle de 5 ans sur les démoussages de toiture.</p>
+            </div>
         </div>
 
         <div class="flex flex-col items-center md:items-end gap-2">
